@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -exec chown vagrant:vagrant {} \;
+find . -exec chown betty:holberton {} \;
