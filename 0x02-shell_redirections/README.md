@@ -1,4 +1,4 @@
-####  0\. Hello World  mandatory
+##  0\. Hello World  mandatory
 
 Write a script that prints "Hello, World", followed by a new line to the
 standard output.
@@ -18,7 +18,7 @@ standard output.
   * Directory: `0x02-shell_redirections`
   * File: `0-hello_world`
 
-####  1\. Confused smiley  mandatory
+##  1\. Confused smiley  mandatory
 
 Write a script that displays a confused smiley `"(Ôo)'`.
 
@@ -35,7 +35,7 @@ Write a script that displays a confused smiley `"(Ôo)'`.
   * Directory: `0x02-shell_redirections`
   * File: `1-confused_smiley `
 
-####  2\. Let's display a file  mandatory
+##  2\. Let's display a file  mandatory
 
 Display the content of the `/etc/passwd` file.
 
@@ -76,7 +76,7 @@ Example:
   * Directory: `0x02-shell_redirections`
   * File: `2-hellofile`
 
-####  3\. What about 2?  mandatory
+##  3\. What about 2?  mandatory
 
 Display the content of `/etc/passwd` and `/etc/hosts`
 
@@ -116,7 +116,7 @@ Example:
   * Directory: `0x02-shell_redirections`
   * File: `3-twofiles`
 
-####  4\. Last lines of a file  mandatory
+##  4\. Last lines of a file  mandatory
 
 Display the last 10 lines of `/etc/passwd`
 
@@ -147,7 +147,7 @@ Tips from [Dora Korpar](/rltoken/SRaDNb4FY-ydNI6qHhtrUg "Dora Korpar"):
   * Directory: `0x02-shell_redirections`
   * File: `4-lastlines`
 
-####  5\. I'd prefer the first ones actually  mandatory
+##  5\. I'd prefer the first ones actually  mandatory
 
 Display the first 10 lines of `/etc/passwd`
 
@@ -175,7 +175,7 @@ Example:
   * Directory: `0x02-shell_redirections`
   * File: `5-firstlines`
 
-####  6\. Line #2  mandatory
+##  6\. Line #2  mandatory
 
 Write a script that displays the third line of the file `iacta`.
 
@@ -213,7 +213,7 @@ Note: The output will differ, depending on the content of the file `iacta`.
   * Directory: `0x02-shell_redirections`
   * File: `6-third_line`
 
-####  7\. Save current state of directory  mandatory
+##  7\. Save current state of directory  mandatory
 
 Write a script that writes into the file `ls_cwd_content` the result of the
 command `ls -la`. If the file `ls_cwd_content` already exists, it should be
@@ -254,7 +254,7 @@ overwritten. If the file `ls_cwd_content` does not exist, create it.
   * Directory: `0x02-shell_redirections`
   * File: `8-cwd_state `
 
-####  8\. It is a good file that cuts iron without making a noise  mandatory
+##  8\. It is a good file that cuts iron without making a noise  mandatory
 
 Write a shell script that creates a file named exactly `\*\\'"Holberton
 School"\'\\*$\?\*\*\*\*\*:)` containing the text `Holberton School` ending by
@@ -280,7 +280,7 @@ a new line.
   * Directory: `0x02-shell_redirections`
   * File: `7-file`
 
-####  9\. Duplicate last line  mandatory
+##  9\. Duplicate last line  mandatory
 
 Write a script that duplicates the last line of the file `iacta`
 
@@ -329,7 +329,7 @@ Write a script that duplicates the last line of the file `iacta`
   * Directory: `0x02-shell_redirections`
   * File: `9-duplicate_last_line `
 
-####  10\. No more javascript  mandatory
+##  10\. No more javascript  mandatory
 
 Write a script that deletes all the regular files (not the directories) with a
 `.js` extension that are present in the current directory and all its
@@ -379,7 +379,7 @@ subfolders.
   * Directory: `0x02-shell_redirections`
   * File: `10-no_more_js `
 
-####  11\. Don't just count your directories, make your directories count
+##  11\. Don't just count your directories, make your directories count
 mandatory
 
 Write a script that counts the number of directories and sub-directories in
@@ -438,7 +438,7 @@ the current directory.
   * Directory: `0x02-shell_redirections`
   * File: `11-directories`
 
-####  12\. What's new  mandatory
+##  12\. What's new  mandatory
 
 Create a script that displays the 10 newest files in the current directory.
 
@@ -485,7 +485,7 @@ Requirements:
   * Directory: `0x02-shell_redirections`
   * File: `12-newest_files`
 
-####  13\. Being unique is better than being perfect  mandatory
+##  13\. Being unique is better than being perfect  mandatory
 
 Create a scripts that takes a list of words as input and prints only words
 that appear exactly once.
@@ -536,7 +536,7 @@ that appear exactly once.
   * Directory: `0x02-shell_redirections`
   * File: `13-unique`
 
-####  14\. It must be in that file  mandatory
+##  14\. It must be in that file  mandatory
 
 Display lines containing the pattern "root" from the file `/etc/passwd`
 
@@ -555,7 +555,7 @@ Display lines containing the pattern "root" from the file `/etc/passwd`
   * Directory: `0x02-shell_redirections`
   * File: `14-findthatword`
 
-####  15\. Count that word  mandatory
+##  15\. Count that word  mandatory
 
 Display the number of lines that contain the pattern "bin" in the file
 `/etc/passwd`
@@ -573,7 +573,7 @@ Display the number of lines that contain the pattern "bin" in the file
   * Directory: `0x02-shell_redirections`
   * File: `15-countthatword`
 
-####  16\. What's next?  mandatory
+##  16\. What's next?  mandatory
 
 Display lines containing the pattern "root" and 3 lines after them in the file
 `/etc/passwd`.
@@ -600,7 +600,7 @@ Display lines containing the pattern "root" and 3 lines after them in the file
   * Directory: `0x02-shell_redirections`
   * File: `16-whatsnext`
 
-####  17\. I hate bins  mandatory
+##  17\. I hate bins  mandatory
 
 Display all the lines in the file `/etc/passwd` that do not contain the
 pattern "bin".
@@ -627,7 +627,7 @@ pattern "bin".
   * Directory: `0x02-shell_redirections`
   * File: `17-hidethisword`
 
-####  18\. Letters only please  mandatory
+##  18\. Letters only please  mandatory
 
 Display all lines of the file `/etc/ssh/sshd_config` starting with a letter.
 
@@ -650,7 +650,7 @@ Display all lines of the file `/etc/ssh/sshd_config` starting with a letter.
   * Directory: `0x02-shell_redirections`
   * File: `18-letteronly`
 
-####  19\. A to Z  mandatory
+##  19\. A to Z  mandatory
 
 Replace all characters `A` and `c` from input to `Z` and `e` respectively.
 
@@ -667,7 +667,7 @@ Replace all characters `A` and `c` from input to `Z` and `e` respectively.
   * Directory: `0x02-shell_redirections`
   * File: `19-AZ `
 
-####  20\. Without C, you would live in hiago  mandatory
+##  20\. Without C, you would live in hiago  mandatory
 
 Create a script that removes all letters `c` and `C` from input.
 
@@ -684,7 +684,7 @@ Create a script that removes all letters `c` and `C` from input.
   * Directory: `0x02-shell_redirections`
   * File: `20-hiago `
 
-####  21\. esreveR  mandatory
+##  21\. esreveR  mandatory
 
 Write a script that reverse its input.
 
@@ -701,7 +701,7 @@ Write a script that reverse its input.
   * Directory: `0x02-shell_redirections`
   * File: `21-reverse `
 
-####  22\. DJ Cut Killer  mandatory
+##  22\. DJ Cut Killer  mandatory
 
 Write a script that displays all users and their home directories, sorted by
 users.
@@ -806,7 +806,7 @@ users.
   * Directory: `0x02-shell_redirections`
   * File: `22-users_and_homes`
 
-####  23\. Empty casks make the most noise  #advanced
+##  23\. Empty casks make the most noise  #advanced
 
 Write a command that finds all empty files and directories in the current
 directory and all sub-directories.
@@ -902,7 +902,7 @@ directory and all sub-directories.
   * Directory: `0x02-shell_redirections`
   * File: `100-empty_casks`
 
-####  24\. A gif is worth ten thousand words  #advanced
+##  24\. A gif is worth ten thousand words  #advanced
 
 Write a script that lists all the files with a `.gif` extension in the current
 directory and all its sub-directories.
@@ -967,7 +967,7 @@ directory and all its sub-directories.
   * Directory: `0x02-shell_redirections`
   * File: `101-gifs`
 
-####  25\. Acrostic  #advanced
+##  25\. Acrostic  #advanced
 
 An acrostic is a poem (or other form of writing) in which the first letter (or
 syllable, or word) of each line (or paragraph, or other recurring feature in
@@ -1004,7 +1004,7 @@ Create a script that decodes acrostics that use the first letter of each line.
   * Directory: `0x02-shell_redirections`
   * File: `102-acrostic`
 
-####  26\. The biggest fan  #advanced
+##  26\. The biggest fan  #advanced
 
 Write a script that parses web servers logs in TSV format as input and
 displays the 11 hosts or IP addresses which did the most requests.
