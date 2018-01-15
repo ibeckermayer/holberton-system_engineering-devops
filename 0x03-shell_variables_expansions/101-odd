@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1 | tr '\n' ':' | cut -d':' -f$(seq -s, 1 2 500) | tr ':' '\n'
