@@ -463,8 +463,7 @@ Create a man that looks exactly like this one and passes all checks.
     ubuntu@ip-172-31-63-244:/tmp/man$ man ./101-man_holberton
     
 
-![man_holberton](https://s3.amazonaws.com/intranet-projects-files
-/holbertonschool-sysadmin_devops/207/man_holberton.PNG)
+![man_holberton](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/207/man_holberton.PNG)
 
 **Repo:**
 
