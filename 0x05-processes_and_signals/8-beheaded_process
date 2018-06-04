@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# kill highlander for real.
+pkill -f --signal SIGKILL 7-highlander
