@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # This script is displaying "Holberton School" 10 times
 for file in ./*; do
-    find "$file" | cut -d'-' -f2
+    ls "$file" | cut -d'-' -f2
 done
