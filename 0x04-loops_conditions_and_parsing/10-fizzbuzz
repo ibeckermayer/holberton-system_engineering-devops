@@ -5,9 +5,9 @@ do
     if ( (! ((i % 3)) ) && (! ((i % 5)) ) ); then
 	echo "FizzBuzz"
     elif (! ((i % 3)) ); then
-	echo "fizz"
+	echo "Fizz"
     elif (! ((i % 5)) ); then
-	echo "buzz"
+	echo "Buzz"
     else
         echo $i;
     fi
