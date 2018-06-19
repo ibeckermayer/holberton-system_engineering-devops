@@ -1,0 +1,3 @@
+#!/bin/bash
+# get active ip's
+ifconfig | grep 'inet ' | cut -d ':' -f2 | cut -d ' ' -f1
