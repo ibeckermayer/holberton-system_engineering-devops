@@ -1,2 +1,3 @@
 #!/bin/bash
+# display listening programs
 netstat --listening --programs
