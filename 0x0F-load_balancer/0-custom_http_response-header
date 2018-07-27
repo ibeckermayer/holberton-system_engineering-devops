@@ -3,5 +3,5 @@
 sudo apt-get -y update
 sudo apt-get -y install nginx
 sudo apt-get -y install nginx-extras
-sed -i 's/# server_tokens off;/server_tokens off;\n\tmore_set_headers "X-Served-By: $HOSTNAME";/' /etc/nginx/nginx.conf
-service nginx start
+sudo sed -i 's/# server_tokens off;/server_tokens off;\n\tmore_set_headers "X-Served-By: $HOSTNAME";/' /etc/nginx/nginx.conf
+sudo service nginx start
