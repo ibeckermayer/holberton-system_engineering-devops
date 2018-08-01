@@ -1,0 +1,2 @@
+useradd $1 2>/dev/null
+sudo -u $1 whoami
