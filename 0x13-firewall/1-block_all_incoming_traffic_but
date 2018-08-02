@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 # setup firewall
 sudo apt-get -y install ufw
 sudo ufw default deny incoming
@@ -7,4 +7,4 @@ sudo ufw allow ssh
 sudo ufw allow ssl
 sudo ufw allow http
 sudo ufw allow https
-
+sudo ufw enable
