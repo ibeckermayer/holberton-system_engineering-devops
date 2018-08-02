@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 # change user and run whoami
-useradd $1 2>/dev/null
 sudo -u $1 whoami
