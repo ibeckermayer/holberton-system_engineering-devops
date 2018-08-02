@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # install nginx and run as nginx user
-sudo kill "$(pidof apache2)"
+sudo pkill -f apache2
 sudo apt-get -y install nginx
 sudo useradd nginx 2>/dev/null
 sudo sed -i 's/80/8080/' /etc/nginx/sites-available/default
