@@ -12,9 +12,9 @@ def get_user_todo():
     '''
     get user todo
     '''
-    emp = requests.get('https://jsonplaceholder.typicode.com/users/{}'
+    raw_users = requests.get('https://jsonplaceholder.typicode.com/users/{}'
                        .format(sys.argv[1]))
-    name = emp.json().get('username')
+    name = raw_users.json().get('username')
     tasks = requests.get('https://jsonplaceholder.typicode.com/todos?userId={}'
                          .format(sys.argv[1]))
     tasks = tasks.json()

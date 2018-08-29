@@ -10,9 +10,9 @@ import sys
 
 def main(argv):
 
-    emp = requests.get('https://jsonplaceholder.typicode.com/users/{}'
+    raw_users = requests.get('https://jsonplaceholder.typicode.com/users/{}'
                        .format(sys.argv[1]))
-    name = emp.json().get('username')
+    names = raw_users.json().get('username')
     raw_todos = requests.get('https://jsonplaceholder.typicode.com/todos')
     raw_todos = raw_todos.json()
     complete = 0
@@ -24,7 +24,7 @@ def main(argv):
         writer = csv.writer(f, quoting=csv.QUOTE_ALL, quotechar='"')
         for todo in raw_todos:
             if todo['userId'] == int(sys.argv[1]):
-                todo['name'] = name
+                todo['name'] = names
                 writer.writerow([todo['userId'], todo['name'],
                                  todo['completed'], todo['title']])
 
