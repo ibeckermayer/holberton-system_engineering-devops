@@ -25,7 +25,7 @@ def info():
     print("Employee {} is done with tasks({}/{}):"
           .format(names, comp, tot))
     for title in titles:
-        print('     ', end="")
+        print('\t ', end="")
         print(title)
 
 
