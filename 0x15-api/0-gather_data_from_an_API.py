@@ -8,7 +8,7 @@ import sys
 
 def info():
     raw_users = requests.get('https://jsonplaceholder.typicode.com/users/{}'
-                       .format(sys.argv[1]))
+                             .format(sys.argv[1]))
     names = raw_users.json().get('name')
     raw_todos = requests.get(
         'https://jsonplaceholder.typicode.com/todos').json()
@@ -22,7 +22,7 @@ def info():
                 titles.append(todo['title'])
             tot += 1
     print("Employee {} is done with raw_todos({}/{}):"
-                      .format(names, comp, tot))
+          .format(names, comp, tot))
     for title in titles:
         print('\t ', end="")
         print(title)
