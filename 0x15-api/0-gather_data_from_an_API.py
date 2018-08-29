@@ -11,7 +11,8 @@ def info():
                              .format(sys.argv[1]))
     names = raw_users.json().get('name')
     raw_todos = requests.get(
-        'https://jsonplaceholder.typicode.com/todos').json()
+        'https://jsonplaceholder.typicode.com/todos')
+    raw_todos = raw_todos.json()
     comp = 0
     titles = []
     tot = 0
