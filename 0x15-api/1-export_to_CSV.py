@@ -13,8 +13,8 @@ def main(argv):
     emp = requests.get('https://jsonplaceholder.typicode.com/users/{}'
                        .format(sys.argv[1]))
     name = emp.json().get('username')
-    tasks = requests.get('https://jsonplaceholder.typicode.com/todos')
-    tasks = tasks.json()
+    raw_todos = requests.get('https://jsonplaceholder.typicode.com/todos')
+    raw_todos = raw_todos.json()
     complete = 0
     fieldnames = ["USER_ID", "USERNAME", "TASK_COMPLETED_STATUS", "TASK_TITLE"]
     titles = []
@@ -22,11 +22,11 @@ def main(argv):
     filename = sys.argv[1] + ".csv"
     with open(filename, 'w') as f:
         writer = csv.writer(f, quoting=csv.QUOTE_ALL, quotechar='"')
-        for task in tasks:
-            if task['userId'] == int(sys.argv[1]):
-                task['name'] = name
-                writer.writerow([task['userId'], task['name'],
-                                 task['completed'], task['title']])
+        for todo in raw_todos:
+            if todo['userId'] == int(sys.argv[1]):
+                todo['name'] = name
+                writer.writerow([todo['userId'], todo['name'],
+                                 todo['completed'], todo['title']])
 
 
 if __name__ == "__main__":
