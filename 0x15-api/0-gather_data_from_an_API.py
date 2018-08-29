@@ -20,7 +20,7 @@ def info():
             if todo['completed'] is True:
                 comp += 1
                 titles.append(todo['title'])
-                tot += 1
+            tot += 1
     print("Employee {} is done with raw_todos({}/{}):"
                       .format(names, comp, tot))
     for title in titles:
